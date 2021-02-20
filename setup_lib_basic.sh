@@ -1,17 +1,18 @@
 # basic
-# 
-apt-get update
-apt -y install awscli
-6
-70
+# aws s3 cp /Users/chen/files/surreal/lib/setup/setup_lib_basic.sh s3://www.talkieselfie.xyz/chenjy/setup/
+apt-get update; apt -y install wget; wget http://www.talkieselfie.xyz/chenjy/setup/setup_lib_basic.sh; bash setup_lib_basic.sh
+
 apt -y install git
 git config --global credential.helper cache 5184000
 mkdir lib
 cd lib
-git clone https://github.com/buffxz/mlcandy.git
+git clone https://github.com/whalesi/setup.git
+
+apt -y install awscli
+6
+70
 
 apt -y install vim
-apt -y install wget
 apt -y install zip
 apt -y install git
 apt -y install htop
@@ -88,6 +89,7 @@ pip install omegaconf
 pip install pytorch-lightning
 pip install munch
 
+git clone https://github.com/buffxz/mlcandy.git
 git clone https://github.com/buffxz/facehack.git
 git clone https://github.com/buffxz/experiment-framework.git
 git clone https://github.com/buffxz/incubator.git
