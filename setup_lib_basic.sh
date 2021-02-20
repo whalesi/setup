@@ -1,6 +1,6 @@
 # basic
 # aws s3 cp /Users/chen/files/surreal/lib/setup/setup_lib_basic.sh s3://www.talkieselfie.xyz/chenjy/setup/
-apt-get update; apt -y install wget; wget http://www.talkieselfie.xyz/chenjy/setup/setup_lib_basic.sh; bash setup_lib_basic.sh
+# apt-get update; apt -y install wget; wget http://www.talkieselfie.xyz/chenjy/setup/setup_lib_basic.sh; bash setup_lib_basic.sh
 
 apt -y install git
 git config --global credential.helper cache 5184000
